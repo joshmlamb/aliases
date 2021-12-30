@@ -7,7 +7,7 @@ alias storage='df -h'
 alias e='vim'
 alias e-config='e ~/.vim/vimrc'
 
-alias tmux-config='e ~/.tmux.conf'
+alias tmux-config='e ~/.config/tmux/.tmux.conf'
 alias tmux-reload='tmux source ~/.tmux.conf'
 alias tl='tmux ls'
 alias tk='tmux kill-server'
@@ -16,7 +16,7 @@ alias ta='tmux attach -t'
 
 alias bash-config='e ~/.bashrc'
 alias bash-profile='e ~/.profile'
-alias bash-alias='e ~/.bash_aliases'
+alias bash-alias='e ~/.config/aliases/.bash_aliases'
 alias bash-reload='source ~/.bashrc && source ~/.profile'
 
 alias gs='git status'
